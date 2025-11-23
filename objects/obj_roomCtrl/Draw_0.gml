@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_harp, 0, player.x+player.sprite_width/4, player.y, player.image_xscale, 1, 0, c_white, 1)
