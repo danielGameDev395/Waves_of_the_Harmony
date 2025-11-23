@@ -1,6 +1,6 @@
 ds_list_add(global.inventory, {name: instrument, reference: self.sprite_index})
 
-if (ds_list_find_value(global.inventory, 0).name=="Harmonica") {
+if (global.inventory[| 0].name=="Harmonica") {
 	ds_list_delete(global.inventory, 0)
 }
 
