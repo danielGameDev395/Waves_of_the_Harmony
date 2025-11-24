@@ -44,7 +44,6 @@ if (attack_but && can_attack==1) {
 		case "Harmonica": harmonica_attack(); cooldown=50; break;
 		case "Harp": harp_attack(); cooldown=120; break;
 	}
-	show_debug_message($"ATACOU COM *{string_upper(equip_instrument.name)}*")
 	can_attack=0; alarm_set(0, cooldown)
 }
 #endregion
