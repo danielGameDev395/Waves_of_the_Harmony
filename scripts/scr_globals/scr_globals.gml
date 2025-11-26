@@ -16,6 +16,6 @@ resetable_globals()
 
 global.grav=0.5
 global.enemies=[
-	obj_common,
+	obj_knight,
 	obj_bat
 ]

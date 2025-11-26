@@ -4,7 +4,9 @@ function harmonica_attack() {
 
 function harp_attack() {
 	instance_create_depth(x, y, depth-1, obj_healingWave)
-	hp+=5
+	heal=5
+	if (hp+heal>max_hp) { hp=max_hp }
+	else if (hp<max_hp) { hp+=heal }
 }
 
 function tambourine_attack() {

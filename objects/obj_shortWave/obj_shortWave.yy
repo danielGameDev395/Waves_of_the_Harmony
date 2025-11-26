@@ -10,8 +10,8 @@
     "path":"folders/Objects/Projectiles/InstrumentsWaves.yy",
   },
   "parentObjectId":{
-    "name":"obj_projectile",
-    "path":"objects/obj_projectile/obj_projectile.yy",
+    "name":"obj_playerProjectile",
+    "path":"objects/obj_playerProjectile/obj_playerProjectile.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

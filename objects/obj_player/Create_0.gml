@@ -5,7 +5,8 @@ yspd=0
 
 jump_spd=-6
 
-hp=20
+max_hp=20
+hp=max_hp
 
 can_attack=1
 invincible=0

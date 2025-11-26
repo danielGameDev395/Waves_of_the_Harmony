@@ -1,0 +1,1 @@
+can_skill=1
