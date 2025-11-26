@@ -1,10 +1,12 @@
+if (hp<=0) { instance_destroy() }
+
 // distância e escala
 distance=player.x-x
 if (distance!=0) { image_xscale=sign(distance) }
 if (abs(distance)<=range) { can_skill=1 }
 else { can_skill=0 }
 
-#region Movimentação lateral
+#region Movimentação lateral (perseguição)
 xspd = distance!=0? image_xscale*spd:0
 
 if (place_meeting(x+xspd, y, obj_solid)) {

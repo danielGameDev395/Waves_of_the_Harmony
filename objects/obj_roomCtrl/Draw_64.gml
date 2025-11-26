@@ -3,7 +3,7 @@ width=display_get_gui_width()
 height=display_get_gui_height()
 
 borderX=width/32
-borderY=height/32
+borderY=height/16
 #endregion
 
 #region HUD
@@ -16,3 +16,5 @@ for (var i=0; i<ds_list_size(global.inventory); i++) {
 	draw_sprite(spr, 0, borderX+draw_distance*i, borderY)
 }
 #endregion
+
+draw_text(borderX, borderY+32, string(player.alarm[0]))

@@ -1,3 +1,5 @@
+if (hp<=0) { room_restart() }
+
 #region Controles
 var right=keyboard_check(vk_right) || keyboard_check(ord("D"))
 var left=keyboard_check(vk_left) || keyboard_check(ord("A"))
@@ -38,12 +40,21 @@ if (place_meeting(x, y+yspd, obj_solid)) {
 y+=yspd
 #endregion
 
-#region Ataque
-if (attack_but && can_attack==1) {
-	switch (equip_instrument.name) {
-		case "Harmonica": harmonica_attack(); cooldown=50; break;
-		case "Harp": harp_attack(); cooldown=120; break;
+#region Troca de instrumento
+if (can_attack==1) {
+	for (var i=0; i<ds_list_size(global.inventory); i++) {
+		if (keyboard_check_pressed(ord("1")+i)) {
+			equip_instrument=global.inventory[| i]
+			break;
+		}
 	}
-	can_attack=0; alarm_set(0, cooldown)
 }
 #endregion
+
+#region Ataque
+if (attack_but && can_attack==1) {
+	attack()
+	can_attack=0; alarm_set(0, equip_instrument.cooldown)
+}
+#endregion
+

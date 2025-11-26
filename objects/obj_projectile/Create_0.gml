@@ -1,15 +1,9 @@
-image_xscale=obj_player.image_xscale
+shooter=instance_nearest(x, y, obj_player)
 
-instrument=obj_player.equip_instrument.name
+image_xscale=shooter.image_xscale
 
-distanceX=0
-distanceY=0
+spd=5
+xspd=image_xscale*spd; yspd=0
 
-switch (instrument) {
-	case "Harmonica":
-		sprite_index=spr_shortWave; xspd=5*image_xscale; yspd=0
-		break;
-	case "Harp":
-		sprite_index=spr_healing; xspd=0; yspd=-3
-		break;
-}
+range=150
+dmg=3

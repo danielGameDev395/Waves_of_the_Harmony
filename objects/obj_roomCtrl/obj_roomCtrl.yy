@@ -11,8 +11,8 @@
   "name":"obj_roomCtrl",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Controls",
+    "path":"folders/Objects/Controls.yy",
   },
   "parentObjectId":null,
   "persistent":false,

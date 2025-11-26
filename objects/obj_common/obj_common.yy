@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_common",
-    "path":"sprites/spr_common/spr_common.yy",
+    "name":"spr_knight",
+    "path":"sprites/spr_knight/spr_knight.yy",
   },
   "spriteMaskId":null,
   "visible":true,

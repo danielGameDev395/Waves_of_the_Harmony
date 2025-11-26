@@ -3,6 +3,8 @@ event_inherited();
 spd=2
 yspd=3
 
+hp=3
+
 range*=2
 
 fly=1

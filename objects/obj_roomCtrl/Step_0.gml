@@ -2,7 +2,7 @@
 player_instrument=player.equip_instrument
 
 if (global.remaining_enemies==0 && global.alive_enemies==0) {
-	room_restart()
+	room_goto_next()
 }
 
 #region DEBUG
