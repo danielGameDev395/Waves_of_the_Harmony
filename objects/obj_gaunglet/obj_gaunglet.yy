@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shockWave",
+  "%Name":"obj_gaunglet",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_shockWave",
+  "name":"obj_gaunglet",
   "overriddenProperties":[],
   "parent":{
-    "name":"InstrumentsWaves",
-    "path":"folders/Objects/Projectiles/InstrumentsWaves.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Projectiles/Enemies.yy",
   },
   "parentObjectId":{
-    "name":"obj_melee",
-    "path":"objects/obj_melee/obj_melee.yy",
+    "name":"obj_enemieProjectile",
+    "path":"objects/obj_enemieProjectile/obj_enemieProjectile.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,12 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_shockWave",
-    "path":"sprites/spr_shockWave/spr_shockWave.yy",
+    "name":"spr_gaunglet",
+    "path":"sprites/spr_gaunglet/spr_gaunglet.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_shockWave",
-    "path":"sprites/spr_shockWave/spr_shockWave.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

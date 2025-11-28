@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shockWave",
+  "%Name":"obj_smash",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_shockWave",
+  "name":"obj_smash",
   "overriddenProperties":[],
   "parent":{
-    "name":"InstrumentsWaves",
-    "path":"folders/Objects/Projectiles/InstrumentsWaves.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Projectiles/Enemies.yy",
   },
   "parentObjectId":{
     "name":"obj_melee",
@@ -33,12 +35,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_shockWave",
-    "path":"sprites/spr_shockWave/spr_shockWave.yy",
+    "name":"spr_smash",
+    "path":"sprites/spr_smash/spr_smash.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_shockWave",
-    "path":"sprites/spr_shockWave/spr_shockWave.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
