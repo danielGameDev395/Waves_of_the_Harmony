@@ -1,2 +1,2 @@
-buttons=["WASD/Keys", "Space/J", "Enter/K", "Numbers"]
-functions=["Move", "Jump", "Attack", "Select instrument"]
+buttons=["WASD/Keys", "Space/J", "Enter/K", "Numbers", "Esc"]
+functions=["Move", "Jump", "Attack", "Select instrument", "Exit menus"]

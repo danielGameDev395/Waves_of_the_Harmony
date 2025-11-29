@@ -1,3 +1,3 @@
 event_inherited();
 
-spd=7; dmg=5; range=200
+spd=7; dmg=7; range=200

@@ -3,7 +3,7 @@ width=display_get_gui_width()
 height=display_get_gui_height()
 
 borderX=width/32
-borderY=height/16
+borderY=height/32
 #endregion
 
 #region HUD

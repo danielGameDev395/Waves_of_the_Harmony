@@ -11,8 +11,8 @@
   "name":"obj_credits",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controls",
-    "path":"folders/Objects/Controls.yy",
+    "name":"Controllers",
+    "path":"folders/Objects/Controllers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

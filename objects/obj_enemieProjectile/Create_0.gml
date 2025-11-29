@@ -6,4 +6,10 @@ spd=6
 xspd=image_xscale*spd; yspd=0
 
 range=200
-dmg=5
+
+switch (room) {
+	case rm_stage1: dmg=5 break;	
+	case rm_stage2: dmg=5 break;	
+	case rm_stage3: dmg=6 break;	
+	case rm_stage4: dmg=6 break;	
+}
