@@ -4,7 +4,7 @@ if (hp<=0) { room_restart() }
 var right=keyboard_check(vk_right) || keyboard_check(ord("D"))
 var left=keyboard_check(vk_left) || keyboard_check(ord("A"))
 var jump_but=keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("J"))
-var attack_but=keyboard_check_pressed(ord("K"))
+var attack_but=keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("K"))
 #endregion
 
 #region Movimentação lateral

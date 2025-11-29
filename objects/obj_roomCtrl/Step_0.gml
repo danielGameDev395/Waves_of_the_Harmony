@@ -1,22 +1,10 @@
 // instrumento equipado
 player_instrument=player.equip_instrument
 
+// spawna o boss depois de derrotar todos os instrumentos
 if (global.remaining_enemies==0 && global.alive_enemies==0) {
-	room_goto_next()
+	if (!instance_exists(obj_boss) && boss_spawned==0) {
+		boss_spawned=1
+		instance_create_depth(room_width/2, room_height/2, depth, obj_boss)
+	}
 }
-
-#region DEBUG
-
-if (keyboard_check(vk_shift)) { room_restart() }
-if (keyboard_check_pressed(vk_escape)) { game_end() }
-//show_debug_message(string(player))
-
-/*show_debug_message($"Inimigos vivos: {global.alive_enemies}")
-show_debug_message($"Inimigos restantes: {global.remaining_enemies}")
-*/
-/*for (var i=0; i<ds_list_size(global.inventory); i++) {
-	show_debug_message(string(global.inventory[| i]))
-}
-*/
-
-#endregion
