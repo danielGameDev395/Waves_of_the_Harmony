@@ -1,7 +1,7 @@
 // Janela
 global.width=1080; global.height=720
 window_set_size(global.width, global.height); window_center()
-window_set_fullscreen(true)
+//window_set_fullscreen(true)
 surface_resize(application_surface, global.width, global.height)
 
 function resetable_globals() {

@@ -1,5 +1,7 @@
 shooter=instance_nearest(x, y, shooter_obj)
 
+if (!instance_exists(shooter)) { instance_destroy(); exit; }
+
 image_xscale=shooter.image_xscale
 
 spd=6

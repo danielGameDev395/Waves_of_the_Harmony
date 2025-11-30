@@ -7,6 +7,7 @@ jump_spd=-6
 
 max_hp=30
 hp=max_hp
+dead=0
 
 can_attack=1
 invincible=0

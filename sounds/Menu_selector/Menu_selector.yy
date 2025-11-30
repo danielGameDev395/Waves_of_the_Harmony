@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Menu_selector",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.1006576,
+  "exportDir":"",
+  "name":"Menu_selector",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Menu_selector.wav",
+  "volume":0.95,
+}
