@@ -1,5 +1,5 @@
 if (dead==1) { exit; }
-can_attack=1; hp=999
+
 if (hp<=0) { 
 	dead=1; visible=false; audio_stop_all(); audio_play_sound(PlayerDefeated, 0, false)
 	alarm_set(2, audio_sound_length(PlayerDefeated)*game_get_speed(gamespeed_fps))
